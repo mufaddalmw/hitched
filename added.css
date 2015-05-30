@@ -20,6 +20,7 @@
 .btn-darkgreen:hover {color:#f8d38c; background:#056b63;}
 .btn-group-lg>.btn, .btn-lg { padding: 16px 18px; font-size: 18px; line-height: 1.3333333; border-radius: 10px }
 .btn-transparent {color:#3e3e3e;}
+.btn-transparent:hover {color:#fff;}
 /*Package green style*/
 .package-block {float:left; width:50%; color:#fff;}
 .package-block header {background:#15bbad; padding:22px 30px;}
