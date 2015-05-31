@@ -25,9 +25,9 @@
 .package-block {float:left; width:50%; color:#fff;}
 .package-block header {background:#15bbad; padding:22px 30px;}
 .package-block .btn {float:right;}
-.package-block h2 {color:#fff; font-size:2.25em; float:left; font-family: 'georgiaitalic'; margin:15px 0 0px;}
-.package-content {background:#0f8379; padding:22px 30px; font-size:1.6em; color:#aae6e1; font-family: 'Gotham Light'; line-height:38px;}
-.addons {border-top:solid 1px #57a8a1; padding:30px 0; margin-top:50px; font-size:.8em; line-height:28px;}
+.package-block h2 {color:#fff; font-size:32px; float:left; font-family: 'georgiaitalic'; margin:15px 0 0px;}
+.package-content {background:#0f8379; padding:22px 30px; font-size:22px; color:#aae6e1; font-family: 'Gotham Light'; line-height:1.4;}
+.addons {border-top:solid 1px #57a8a1; padding:30px 0; margin-top:50px; font-size:11px; line-height:1.4;}
 .addons .heading {color:#f9e389; display:block;}
 .package-block.theme-green1 header {background:#13a99c;}
 .package-block.theme-green1 .package-content {background:#0c6961;}
@@ -38,19 +38,19 @@
 .package-block.theme-green3 .package-content {background:#04221f; min-height:575px;}
 .category-packages {margin:40px 0;}
 .category-packages-col {width:50%; float:left; background:#e6e6e6;}
-.category-packages-col h3 {font-family: 'georgiaitalic'; color:#04221f; font-size:2em; padding:30px; margin:0;}
+.category-packages-col h3 {font-family: 'georgiaitalic'; color:#04221f; font-size:28px; padding:30px; margin:0;}
 .category-packages-col header {background:#b3b3b3; padding:1px 30px;}
-.category-packages-col h4 {margin:18px 0 0; font-size:1.6em; color:#fff; font-family: 'georgiaitalic'; float:left;}
+.category-packages-col h4 {margin:18px 0 0; font-size:22px; color:#fff; font-family: 'georgiaitalic'; float:left;}
 .category-packages-col .btn {float:right;}
-.category-packages-content {font-size:1.45em; padding:15px 30px 25px; font-family: 'Gotham Light'; line-height:28px;}
+.category-packages-content {font-size:20px; padding:15px 30px 25px; font-family: 'Gotham Light'; line-height:1.4;}
 .theme-gray1.category-packages-col {background-color:#d2d2d2;}
 .theme-gray1 header {background-color:#a1a1a1;}
 /*=======================
   Contact page style
   ======================*/
-.spot-head p {font-family:Georgia, georgiaitalic, "Times New Roman", Times, serif; max-width:850px; color:#fff; font-size:1.5em; display:inline-block; line-height:1.3;}
+.spot-head p {font-family:Georgia, georgiaitalic, "Times New Roman", Times, serif; max-width:850px; color:#fff; font-size:22px; display:inline-block; line-height:1.3;}
 .contact-leftp {float:left; width:70%; color:#fff;}
-.contact-header {padding: 20px; border-top:solid 1px rgba(255,255,255,.3); border-bottom:solid 1px rgba(255,255,255,.3); font-family: 'georgiaitalic'; font-size:1.15em;}
+.contact-header {padding: 20px; border-top:solid 1px rgba(255,255,255,.3); border-bottom:solid 1px rgba(255,255,255,.3); font-family: 'georgiaitalic'; font-size:16px;}
 .contact-header p {margin:0; padding:0;}
 .row:before, .row:after { content: "\0020"; display: block; height: 0; overflow: hidden;}  
 .row:after { clear: both;}  
@@ -115,7 +115,7 @@
 
 .contact-content {padding:29px 20px;}
 .error-space {height:20px; padding-top:5px; font-size:12px;}
-.label {font-size:.9em; float:left; padding-bottom:5px;}
+.label {font-size:12px; float:left; padding-bottom:5px;}
 label.error {color:#FF5959; display:none;}
 .mandatory {color:#15bbad;}
 .bg-black {background:#000;}
