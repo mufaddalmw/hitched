@@ -22,20 +22,20 @@
 .btn-transparent {color:#3e3e3e;}
 .btn-transparent:hover {color:#fff;}
 /*Package green style*/
-.package-block {float:left; width:50%; color:#fff;}
+.package-block {float:left; width:50%; color:#fff; background:#0f8379;}
 .package-block header {background:#15bbad; padding:22px 30px;}
 .package-block .btn {float:right;}
 .package-block h2 {color:#fff; font-size:32px; float:left; font-family: 'georgiaitalic'; margin:15px 0 0px;}
-.package-content {background:#0f8379; padding:22px 30px; font-size:22px; color:#aae6e1; font-family: 'Gotham Light'; line-height:1.4;}
+.package-content {padding:22px 30px; font-size:22px; color:#aae6e1; font-family: 'Gotham Light'; line-height:1.4;}
 .addons {border-top:solid 1px #57a8a1; padding:30px 0; margin-top:50px; font-size:11px; line-height:1.4;}
 .addons .heading {color:#f9e389; display:block;}
 .package-block.theme-green1 header {background:#13a99c;}
-.package-block.theme-green1 .package-content {background:#0c6961;}
+.package-block.theme-green1 {background:#0c6961;}
 .c-yellow {color:#f9e389;}
 .package-block.theme-green2 header {background:#0b5e57;}
-.package-block.theme-green2 .package-content {background:#073f3a;}
+.package-block.theme-green2 {background:#073f3a;}
 .package-block.theme-green3 header {background:#073c37;}
-.package-block.theme-green3 .package-content {background:#04221f; min-height:575px;}
+.package-block.theme-green3 {background:#04221f; }
 .category-packages {margin:40px 0;}
 .category-packages-col {width:50%; float:left; background:#e6e6e6;}
 .category-packages-col h3 {font-family: 'georgiaitalic'; color:#04221f; font-size:28px; padding:30px; margin:0;}
