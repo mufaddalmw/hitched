@@ -113,4 +113,14 @@ var Site = {
 };
 $(function() {
 	Site.init();
+	
+	// full video "Fitvid" Video Initialization
+	if ( $(".videoWrapper").is(":visible") ) {
+	 $(".videoWrapper").fitVids();
+	}//end
+	
+	// Photos page heart click active function
+	$('[data-js="heart"]').click(function(){
+		$(this).toggleClass('active');
+	});
 });
