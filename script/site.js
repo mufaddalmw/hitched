@@ -123,4 +123,22 @@ $(function() {
 	$('[data-js="heart"]').click(function(){
 		$(this).toggleClass('active');
 	});
+	
+	//Likes afterline calcuation on photos page
+	function likeLineHeight() {
+		$likeslineHeight = $('.right-options-wrap').height();
+		
+		$likeslineHeight = $likeslineHeight - 315;
+		$('.likes-afterline').height($likeslineHeight);
+	}
+	likeLineHeight();
+	$(window).resize(function(){
+		likeLineHeight();
+	});
+	
+	
+});
+
+$(window).load(function(){
+	likeLineHeight();
 });

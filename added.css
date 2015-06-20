@@ -216,13 +216,13 @@ background: none !important; }
 .i-heart {width:39px; height:33px; background-position:-7px -15px; opacity:.75; transition:.2s; -webkit-transition:.2s;}
 .i-heart:hover {opacity:1;}
 .i-heart.active {background-position:-57px -15px;}
-.likes {  top: 50px;  position: absolute;  right: 6px;}
+.likes {  top: 70px;  position: absolute;  right: 6px;}
 .likes:after {content:''; border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; bottom:120%; height:200px;}
-.likes:before {content:''; border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; top:58px; height:198px;}
+.likes-afterline {border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; top:58px; height:230px;}
 .likes .num {display:block; color:#15bbad; font-weight:bold; margin-bottom:5px;}
 .i-camera {width:36px; height:30px; background-position:-118px -18px;}
 .i-video {width:36px; height:25px; background-position:-174px -22px;}
-.media-icons {position:absolute; top:320px;}
+.media-icons {position:absolute; /*top:320px;*/ bottom:50px;}
 .media-icons a {text-transform:uppercase; font-weight:bold; font-size:11px; margin-bottom:20px; display:block; cursor:default; color:#15bbad;}
 .media-icons i {margin-bottom:5px;}
 .media-icons:after {content:''; border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; top:93%; height:1000px;}
