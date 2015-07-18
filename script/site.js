@@ -16,8 +16,9 @@ var Site = {
 	},
 	_contentPosition: function(){
 		var newTopPos;
-		headerH = $('.global-header').width()/2;
-		$('.spotlight').css('height', headerH+'px')
+		//headerH = $('.global-header').width()/2;
+		headerH = $(window).height();
+		$('.spotlight, .mask').css('height', headerH+'px')
 		$('.global-header').css('height', headerH+'px')
 		//$('.content-wrapper').css('top', headerH+'px');
 		//$('.global-footer').css('top', headerH+'px');
@@ -54,10 +55,12 @@ var Site = {
 			}
 			if(scrollTop >= 210/640*headerH){
 				$('.logo').css('position', 'fixed');
+				$('.logo').addClass('stick');
 				$('.logo').css('top', '21px');
 			}
 			else{
 				$('.logo').css('position', 'absolute');
+				$('.logo').removeClass('stick');
 				$('.logo').css('top', '39.53125%');
 			}
 			if (scrollTop > lastScrollTop){
@@ -67,7 +70,7 @@ var Site = {
 					scrollTop = scrollTop/100;
 					sT = sT/100;
 					//$('.spot-head').css('opacity', scrollTop);
-					$('.logo-title').css('opacity', scrollTop);
+					//$('.logo-title').css('opacity', scrollTop);
 					$('.add-h').css('opacity', sT);
 					//$('.image-list h1').css('opacity', scrollTop);
 				}

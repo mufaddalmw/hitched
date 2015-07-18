@@ -264,7 +264,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191a24', end
 .photo-collage {margin-top: -180px;  float:left; width:100%;}
 .photo-collage img {float:left; clear:both; width:100%;}
 .top-reset {top:0!important;}
-.booking-wrap {background:url(image/photos-banner.jpg) no-repeat center top; background-size:cover; width:100%; float:left; padding:12em 0; color:#fff;} 
+.booking-wrap {background:url(image/photos-banner.jpg) no-repeat center top; background-size:cover; width:100%; float:left; padding:12em 0; color:#fff; position:relative;} 
+.callout-container {position:relative;}
 .container-sm {width:800px; margin:0 auto;}
 .booking-wrap h2 {font-family: 'georgiaitalic'; font-size:40px; color:#fff;   margin-bottom: .8em;}
 .booking-wrap p {font-size:26px; font-family:Georgia, georgiaitalic, "Times New Roman", Times, serif; line-height:1.4; width:55%;}
@@ -278,10 +279,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191a24', end
 .list-services > li.btn-booking a {background:#15bbad;}
 .list-services > li.btn-booking a small {color:#fff;}
 .list-services > li.btn-booking a:hover {background:#009387;}
-.green-wrapper {background:url(image/green-bg.png); padding:2em 0;}
+.green-wrapper {background:url(image/green-bg.png); padding:2em 0; position:relative; z-index:2;}
 .no-float {float:none;}
 .callout-container .img {width:50%; float:left;}
-.instafeed {background:#000000;}
+.instafeed {background:#000000; position:relative;}
 .instafeed .images-panel {width:80%; float:left;}
 .instafeed .followus {width:20%; float:right; text-align:center; margin:6em 0;}
 .instafeed .insta-img {width:25%; float:left;}

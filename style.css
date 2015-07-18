@@ -105,6 +105,8 @@ opacity:0.5;
 }
 .spotlight{
  width:100%;
+ position:fixed;
+ z-index:0;
  background-size:cover;
  min-width:768px;
  background-position:center top;
@@ -210,7 +212,7 @@ opacity:0.5;
 }
 .logo a{
  display:block;
- background:url("image/logo.png") no-repeat left top;
+ background:url("image/logo.png") no-repeat center top;
  width:227px;
  height:114px;
  text-indent:-10000px;
@@ -220,10 +222,11 @@ opacity:0.5;
  background:url("image/logo-title.png") no-repeat left 5px;
  width:227px;
  height:114px;
+ transition:.3s; -webkit-transition:.3s;
 }
 .logo a .add-h{
  display:block;
- background:url("image/h-bg.png") no-repeat center top;
+ /*background:url("image/h-bg.png") no-repeat center top;*/
  width:227px;
  height:18px;
  position:absolute;
@@ -232,18 +235,20 @@ opacity:0.5;
  opacity:0;
  filter:alpha(opacity=0);
 }
+.logo.stick a {height:80px; background-size:auto 100%; }
+.logo.stick a .logo-title {opacity:0;}
 #video-bg{
  width:100%;
  height:100%;
 }
 .spot-head{
- position:absolute;
+ position:fixed;
+ z-index:0;
  left:0;
  top:64.53125%;
  text-align:center;
  width:100%;
  text-align:center;
- z-index:4;
 }
 .spot-head h1{
  font-style:italic;
@@ -644,7 +649,7 @@ opacity:0.5;
  word-spacing: -0.15em;
  font-weight: 300;
  font-family:Georgia, georgiaitalic, "Times New Roman", Times, serif;
- font-size:1.7em;
+ font-size:28px;
  font-style:italic;
  color:#ffffff;
  padding-top:5%;
@@ -660,7 +665,9 @@ opacity:0.5;
 }
 
 .grid figure p {
- font-size:1em;
+ font-size:11px;
+ font-family:arial;
+ text-transform:uppercase;
  color:#fffecb;
 }
 
