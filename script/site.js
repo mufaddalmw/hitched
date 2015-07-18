@@ -56,12 +56,15 @@ var Site = {
 			if(scrollTop >= 210/640*headerH){
 				$('.logo').css('position', 'fixed');
 				$('.logo').addClass('stick');
+				
 				$('.logo').css('top', '21px');
+				$('.spot-head, .global-nav').addClass('fade');
 			}
 			else{
 				$('.logo').css('position', 'absolute');
 				$('.logo').removeClass('stick');
 				$('.logo').css('top', '39.53125%');
+				$('.spot-head, .global-nav').removeClass('fade');
 			}
 			if (scrollTop > lastScrollTop){
 				sT = scrollTop;
