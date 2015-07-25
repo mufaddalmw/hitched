@@ -197,7 +197,7 @@ background: none !important; }
 
 .wedding-wrapper { background-repeat:no-repeat; background-position: center top; background-size:cover; padding:45px 0; text-align:center; position:relative;}
 
-.wedding-wrapper h6 {color:#15bbad; text-transform:uppercase; margin-bottom:5px;}
+.wedding-wrapper h6 {color:#15bbad; text-transform:uppercase; margin-bottom:5px; font-size:13px;}
 .wedding-wrapper h2 {font-size:32px; font-family: 'georgiaitalic'; color:#fff; display:inline-block; position:relative;}
 .wedding-wrapper .heading {height:48px; line-height:28px;}
 .wedding-wrapper h2:before {content:''; border-top:solid 1px rgba(255,255,255,.2);  position: absolute; right: 110%;  width: 1000px;  top: 50%;}
@@ -224,11 +224,14 @@ background: none !important; }
 .i-camera {width:36px; height:30px; background-position:-118px -18px;}
 .i-video {width:36px; height:25px; background-position:-174px -22px;}
 .media-icons {position:absolute; top:40%; /*bottom:50px;*/}
-.media-icons a {text-transform:uppercase; font-weight:bold; font-size:11px; padding:25px 0; display:block; cursor:default; color:#fff;}
+.media-icons a {text-transform:uppercase; font-weight:bold; font-size:11px; padding:25px 0; display:block; color:#fff;}
 .media-icons i {margin-bottom:5px;}
 .media-icons span {display:block; padding-top:5px;}
 .media-icons:after {content:''; border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; top:108%; height:1000px;}
 .media-icons:before {content:''; border-left:solid 1px rgba(255,255,255,.2); position:absolute; left:50%; bottom:108%; height:1000px;}
+.media-icons a:hover .i-camera {background-position:-228px -18px}
+.media-icons a:hover .i-video {background-position:-284px -22px}
+.media-icons a:hover {color:#15BBAD;}
 .global-nav li.active {text-decoration:underline;}
 
 /*==========================
@@ -295,6 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191a24', end
 .instafeed .uname {color:#15bbad; font-size:12px; text-transform:uppercase; display:block;}
 
 .white-section {background:#fff; position:relative; padding:20px 0; font-size:20px; color:#15bbad; font-family: 'georgiaitalic'; text-align:center;}
+.white-section.sticky {display:none; position:fixed; left:0; bottom:0; width:100%; z-index:3;}
 .checkbox {display:inline-block;}
 
 .checkbox {font-size:14px; color:#000; font-family: 'Gotham Light'; text-transform:uppercase; font-weight:700; margin-left:1.5em; vertical-align: 2px;}
@@ -315,6 +319,10 @@ background-position:-458px -5px;
 
 .vertical-block {width:50%; float:left; position:relative;}
 .vertical-block .content {position:absolute; left:50px; top:50px; right:50px; color:#0c9e92;}
+.vertical-block .content.style2 {color:#0bbaab;}
+.vertical-block .style2 .couple-name {color:#fff;}
+.vertical-block .content.style3 {color:#0c9e92;}
+.vertical-block .style3 .couple-name {color:#3d3d3d;}
 .vertical-block .marriage-date {font-size:14px;  display:block; text-transform:uppercase;}
 .vertical-block .couple-name {font-size:40px; font-family: 'georgiaitalic'; display:block; margin-top:
 10px; color:#15bbad;}
@@ -324,13 +332,14 @@ background-position:-458px -5px;
 .vertical-block .media-icons a {display:inline-block; padding:0 20px; font-size:12px;}
 .pagination-container {background:#fff; position:relative;}
 .prev, .next {font-family: 'georgiaitalic'; font-size:23px; color:#15bbad; padding:40px 30px;}
+.prev:hover, .next:hover {background:#f0f0f0;}
 .prev {float:left; border-right:solid 1px #e6e6e6;}
 .next {float:right; border-left:solid 1px #e6e6e6;}
 .prev:before {content:''; background:url(image/sprite.png) no-repeat -60px -75px; width:18px; height:26px; margin-right:1em; vertical-align:-6px; display:inline-block;}
 .next:after {content:''; background:url(image/sprite.png) no-repeat -82px -75px; width:18px; height:26px; margin-left:1em; vertical-align:-6px; display:inline-block;}
 .list-pagi {list-style:none; margin:0; padding:35px 0 0; overflow:hidden; text-align:center;}
 .list-pagi > li {display:inline-block;}
-.list-pagi > li > a {display:block; width:35px; height:35px; border:solid 1px #8addd6; line-height:2.7; color:#15bbad;}
+.list-pagi > li > a {display:block; width:35px; height:35px; border:solid 1px #8addd6; line-height:2.7; color:#15bbad; font-size:14px;}
 .list-pagi > li > a:hover {color:#fff; background:#15bbad}
 .list-pagi > li.selected > a, .list-pagi > li.selected > a:hover {background:#f0f0f0; border-color:#cbcbcb; color:#333}
 
